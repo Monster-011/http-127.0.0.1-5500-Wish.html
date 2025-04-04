@@ -1,0 +1,73 @@
+body {
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('HD-landscape-photographs-51.jpg'); /* Landscape for first page */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #bb06f8;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(5, 185, 245);
+    text-align: center;
+}
+
+#name-input-section {
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#wish-section {
+    margin-top: 20px;
+    animation: fadeInSlideUp 1s ease-out;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    font-family: 'Times New Roman', serif;
+}
+
+button {
+    background-color: #c3e909;
+    color: rgb(130, 7, 7);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Garamond', serif;
+}
+
+button:hover {
+    background-color: #094b0c;
+}
+
+#birthday-title {
+    color: #af2f19;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#birthday-message {
+    font-family: 'Palatino', serif;
+}
